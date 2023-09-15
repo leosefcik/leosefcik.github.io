@@ -1,2 +1,0 @@
-# leosefcik.github.io
-plexiglass
