@@ -3,24 +3,36 @@ body {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
-.topnav {
+#topnav {
     background-color: #313438;
-    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 1s;
+  }
+
+#topnav img {
+    float: left;
+    height: 10%;
+    width: 10%;
 }
 
-.topnav a { 
+#topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
     border: 2px solid transparent;
     border-radius: 8px;
     transition: border .5s;
-    text-decoration: none;
-    text-align: center;
-    font-size: 17px;
-    color: lightgray;
-    padding: 5px;
-    margin: 0 10px;
-}
-.topnav a:hover {
+  }
+  
+#topnav a:hover {
+    background-color: #212224;
     border-color: white;
-}
+  }
