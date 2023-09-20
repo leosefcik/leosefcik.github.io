@@ -6,33 +6,45 @@ body {
     padding: 0;
 }
 
-#topnav {
+.topbar {
     background-color: #313438;
     position: fixed;
     top: 0;
     width: 100%;
     transition: top 1s;
+    height: 4rem;
+    display: flex;
+    align-items: center;
   }
 
-#topnav img {
-    float: left;
-    height: 10%;
-    width: 10%;
+.topbar a {
+  height: 75%
 }
 
-#topnav a {
-    float: right;
-    display: block;
+.topbar div {
+  height: 75%;
+  display: flex;
+}
+
+.topbar div > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15%;
+}
+
+.topbar nav a {
+    font-size: 1.2rem;
     color: white;
     text-align: center;
-    padding: 10px 15px;
+    padding: .5em;
+    margin: 0 .5em;
     text-decoration: none;
-    border: 2px solid transparent;
+    border: .1em solid transparent;
     border-radius: 8px;
     transition: border .5s;
   }
   
-#topnav a:hover {
+.topbar nav a:hover {
     background-color: #212224;
     border-color: white;
   }
