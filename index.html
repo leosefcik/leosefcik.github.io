@@ -19,6 +19,8 @@
   <a href="">STUFF</a>
   <a href="">TIDBITS</a>
   <a href="">FUN</a>
+  <a href="javascript:void(0);" class="icon" onclick="le()">
+    <i class="fa fa-bars"></i>
 </nav>
 </div>
 
@@ -34,6 +36,17 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 } 
 </script>
+
+<script>
+  function le() {
+    var x = document.getElementById("topbar");
+    if (x.className === "topbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "topbar";
+    }
+  }
+  </script>
 
 <div><h1>Eggs & Chickens - the website!!!</h1>
 <p>under renovation, so enjoy this minimalistic Eggs & Chickens experience in the meantime</p>
