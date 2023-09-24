@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -8,45 +9,21 @@
 <title>Home | E&CH</title>
 </head>
 
+
 <body>
 
-<div class="topbar" id="topbar">
-<a href="index.html"><div><img src="media/botlabs.png"><img src="media/eggsnchickens_text.png"></div></a>
+
 <nav>
-  <a href="">TEST</a>
+<div class="topbar" id="topbar">
+<a href="index.html"><div><img src="media/eggsnchickens_text.png"></div></a>
   <a href="">HOME</a>
-  <a href="" class="push">ABOUT</a>
+  <a href="">ABOUT</a>
   <a href="">STUFF</a>
   <a href="">TIDBITS</a>
   <a href="">FUN</a>
-  <a href="javascript:void(0);" class="icon" onclick="le()">
-    <i class="fa fa-bars"></i>
-</nav>
 </div>
+</nav>
 
-<script>
-  var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("topbar").style.top = "0";
-  } else {
-    document.getElementById("topbar").style.top = "-4.1rem";
-  }
-  prevScrollpos = currentScrollPos;
-} 
-</script>
-
-<script>
-  function le() {
-    var x = document.getElementById("topbar");
-    if (x.className === "topbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "topbar";
-    }
-  }
-  </script>
 
 <div><h1>Eggs & Chickens - the website!!!</h1>
 <p>under renovation, so enjoy this minimalistic Eggs & Chickens experience in the meantime</p>
@@ -124,6 +101,10 @@ window.onscroll = function() {
 <p>lorem</p>
 <p>lorem</p>
 </div>
+
+
+<script src="script.js"></script>
+
 
 </body>
 </html>
