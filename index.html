@@ -3,48 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   
   <title>Home | E&CH</title>
   <link rel="icon" type="image/png" href="media/botlabs_c.png">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
-
-    <a class="navbar-brand" href="#">
-      <img src="media/botlabs.png" alt="Eggs & Chickens Icon" style="height:40px;" class="rounded-pill">
-      <img src="media/eggsnchickens_text.png" alt="Eggs & Chickens" style="height:30px;"> 
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">💈 Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">🎓 About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">👢 Fancy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">🍔 Tidbits</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">🦄 Stuff</a>
-        </li>
-      </ul>
-    </div>
-    
-  </div>
-</nav>
+<script src="navbar.js"></script>
 
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -59,10 +25,10 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="media/splash3.png" alt="Bare Eggs & Chickens" class="d-block w-100">
+      <img src="media/splash1.png" alt="Billboard Eggs & Chickens" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="media/splash1.png" alt="Billboard Eggs & Chickens" class="d-block w-100">
+      <img src="media/splash3.png" alt="Bare Eggs & Chickens" class="d-block w-100">
     </div>
     <div class="carousel-item">
       <img src="media/splash2.png" alt="Artsy Eggs & Chickens" class="d-block w-100">
@@ -78,19 +44,23 @@
   </button>
 </div>
 
-<div class="p-5 bg-primary text-white text-center">
-  <h1 class="display-1">hello</h1>
-  <p>no i am not from belarus</p> 
-</div>
-
-<div class="container">
-  <h1>balle 2</h1>
-  <p>This part is inside a .container class.</p>
+<div class="container mt-5">
+  <h1 class="display-1">Here be things!</h1>
+  <p class="lead">Eventually.</p>
   <p>The .container class provides a responsive fixed width container.</p>
   <p>proof?</p>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Footer -->
+<div class="container-fluid shadow bg-dark">
+  <footer class="container my-4 py-3 border-top">
+    <p>help footer broken</p>
+  </footer>
+</div>
+
+<script src="footer.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html> 
