@@ -1,4 +1,5 @@
-# https://eggs-n-chickens.xyz/
+# https://eggsandchickens.info/
+~~https://eggs-n-chickens.xyz/~~ old domain NUKED cuz it was UGLy and EXPENSIIVe
 
 Le official Eggs & Chickens website 1!!1ň
 
