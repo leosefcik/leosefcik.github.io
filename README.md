@@ -1,9 +1,7 @@
 # https://eggsandchickens.info/
 ~~https://eggs-n-chickens.xyz/~~ old domain NUKED cuz it was UGLy and EXPENSIIVe
 
-Le official Eggs & Chickens website 1!!1ň
-
-bery smexy, many wip tho.
+Le official Eggs & Chickens website 1!!1
 
 so yes
 
@@ -19,16 +17,14 @@ go there
 ## New website (but in the beginning):
 ![obrázok](https://github.com/leosefcik/leosefcik.github.io/assets/26169366/26007c52-dc09-4e67-b812-99ceec985a8d)
 
-## New website now
-brb
-
-... what?
-
-alright then
-
-you wanted it
-
-### Oldest website 🥶🥶🥶 (circa 2015? 16? idk):
+## Oldest website 🥶🥶🥶 (circa 2015? 16? idk):
 ![obrázok](https://github.com/leosefcik/leosefcik.github.io/assets/26169366/9ca686e8-f39b-45d3-8986-ec3e76e153e6)
 
 scary
+
+## new new stagnant website in 2023-2025
+its been like this for 3 years
+<img width="1902" height="1418" alt="obrázok" src="https://github.com/user-attachments/assets/5cb1f3ff-3e98-4dc2-a094-733c5b0027d1" />
+
+## new new new neogothic revival website ????????????
+<img width="1920" height="995" alt="obrázok" src="https://github.com/user-attachments/assets/509b133d-04dd-4f42-b882-690036d034f5" />
