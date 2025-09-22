@@ -1,7 +1,10 @@
+/* === FONTS === */
+
 /* Lato fonts */
 @font-face {
     font-family: lato;
-    src: url(./font/lato/Lato-Regular.ttf)
+    src: url(./font/lato/Lato-Regular.ttf);
+    font-weight: normal;
 }
 @font-face {
    font-family: lato;
@@ -13,16 +16,12 @@
    src: url(./font/lato/Lato-Italic.ttf);
    font-style: italic;
 }
-@font-face {
-    font-family: lato;
-    src: url(./font/lato/Lato-Black.ttf);
-    font-weight: bolder;
-}
 
 /* Ubuntu fonts */
 @font-face {
     font-family: ubuntu;
     src: url(./font/ubuntu/Ubuntu-Regular.ttf);
+    font-weight: normal;
 }
 @font-face {
     font-family: ubuntu;
@@ -35,14 +34,64 @@
     font-style: italic;
 }
 
-/* Main */
+/* Some colors
+
+181a1b - avris.it dark bg
+d1cdc7 - avris.it white text
+
+1f1f1f - vscode dark bg
+
+1d2024 - joplin dark bg
+dddddd - joplin white text color
+
+0094ff - eggs and chicken og blue
+154F7C - eggs and chickens darker blue
+
+*/
+
+
+/* ====== MAIN ====== */
+
+:root{
+    --c_accent: #154F7C;
+    --c_bgl: #D9D9D9;
+    --c_bgd: #1d2024;
+    --c_tl: #dddddd;
+    --transition: 0.3s ease-in-out;
+    background-color: var(--c_bgd);
+}
 
 * {
     font-family: ubuntu;
+    box-sizing: border-box;
+    color: var(--c_tl);
+}
+
+h1, h2, h3, p {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 h1, h2, h3 {
-    font-weight: bold;
+  font-family: lato;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
 .logotext{
@@ -57,18 +106,43 @@ h1, h2, h3 {
 
 .topnav{
     overflow: hidden;
-    background-color: dimgray;
+    background-color: var(--c_accent);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
 }
 
-.topnav
-
 .topnav a {
-    float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+}
+
+.topnav-divider{
+    flex-grow: 1;
+}
+
+.topnav-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+
+/*.topnav-logo{
+    height: 60px;
+
+}
+.topnav-logo-text{
+    height: 30px;
+}*/
+
+.content{
+  width: clamp(300px, 80vw, 800px);
+  margin: auto;
 }
 
 .footer {
