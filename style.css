@@ -7,9 +7,8 @@
     font-weight: normal;
 }
 @font-face {
-   font-family: lato;
+   font-family: lato-bold;
    src: url(./font/lato/Lato-Bold.ttf);
-   font-weight: bold;
 }
 @font-face {
    font-family: lato;
@@ -48,25 +47,30 @@ dddddd - joplin white text color
 0094ff - eggs and chicken og blue
 154F7C - eggs and chickens darker blue
 
+    --c_bg_light: #D9D9D9;
+
 */
 
 
 /* ====== MAIN ====== */
 
 :root{
-    --c_accent: #154F7C;
-    --c_bgl: #D9D9D9;
-    --c_bgd: #1d2024;
-    --c_textlight: #e3e3e3;
+    --topnav: #154F7C;
+    --background: #1d2024;
+    --background-alt: hsl(from var(--background) h s calc(l - 5));
+    --line: hsl(0, 0%, 40%);
+    --stripes-line: color-mix(in oklab,var(--line),transparent);
+    --text: #e3e3e3;
+
     --transition: 0.3s ease-in-out;
     --shadow: 1px 0 4px -1px black;
-    background-color: var(--c_bgd);
+    background-color: var(--background);
 }
 
 * {
     font-family: ubuntu;
     box-sizing: border-box;
-    color: var(--c_textlight);
+    color: var(--text);
 }
 
 ::selection {
@@ -92,47 +96,52 @@ h1, h2, h3, p {
     margin-bottom: 1rem;
 }
 
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
 h1, h2, h3 {
   font-family: lato;
   font-weight: bold;
-}
-
-h1 {
-  font-size: 4rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.5;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25em;
 }
 
 .logotext{
-    font-family: lato;
-    font-weight: bold;
+    font-family: lato-bold;
     color: white;
-    font-size: 4em;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 2px 2px black;
+    font-size: 4rem;
+    -webkit-text-stroke: 0.2rem black;
 }
 
 .topnav{
     overflow: hidden;
-    background-color: var(--c_accent);
+    background-color: var(--topnav);
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    margin: 8px;
-    border-radius: 8px;
-    box-shadow: var(--shadow)
+    border: 2px solid rgb(23, 23, 23);
+    border-radius: 32px 32px;
+    box-shadow: var(--shadow);
+    position: fixed;
+    top: 4px;
+    left: 8px;
+    width: calc(100% - 16px);
+    height: 3rem;
 }
 
 .topnav a {
@@ -151,6 +160,22 @@ p {
     align-items: center;
     height: 60px;
     margin-right: auto;
+}
+
+
+.stripes{
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background-attachment: fixed;
+  background-size: 10px 10px;
+  background-color: var(--background-alt);
+  background-image: repeating-linear-gradient(315deg,var(--stripes-line)0,var(--stripes-line)1px,transparent 0,transparent 50%);
+  height: 1.5rem;
+}
+
+.top-stripes{
+    border-top: 0;
+    height: calc(3rem + 8px);
 }
 
 .content{
