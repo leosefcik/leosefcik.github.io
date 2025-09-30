@@ -38,6 +38,7 @@
 
 181a1b - avris.it dark bg
 d1cdc7 - avris.it white text
+(inspiration website)
 
 1f1f1f - vscode dark bg
 
@@ -56,15 +57,33 @@ dddddd - joplin white text color
     --c_accent: #154F7C;
     --c_bgl: #D9D9D9;
     --c_bgd: #1d2024;
-    --c_tl: #dddddd;
+    --c_textlight: #e3e3e3;
     --transition: 0.3s ease-in-out;
+    --shadow: 1px 0 4px -1px black;
     background-color: var(--c_bgd);
 }
 
 * {
     font-family: ubuntu;
     box-sizing: border-box;
-    color: var(--c_tl);
+    color: var(--c_textlight);
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: inherit;
+  text-shadow: none;
+}
+::-moz-selection {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: inherit;
+  text-shadow: none;
+}
+.dark-theme ::selection {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.dark-theme ::-moz-selection {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 h1, h2, h3, p {
@@ -113,35 +132,30 @@ p {
     padding: 10px;
     margin: 8px;
     border-radius: 8px;
+    box-shadow: var(--shadow)
 }
 
 .topnav a {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
+    vertical-align:middle;
+    &:hover { background-color: rgba(255, 255, 255, 0.4)}
 }
 
-.topnav-divider{
-    flex-grow: 1;
-}
+
 
 .topnav-brand{
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 60px;
+    margin-right: auto;
 }
-
-/*.topnav-logo{
-    height: 60px;
-
-}
-.topnav-logo-text{
-    height: 30px;
-}*/
 
 .content{
-  width: clamp(300px, 80vw, 800px);
+  padding-inline: 1.5rem;
+  max-width: 60rem;
   margin: auto;
 }
 
