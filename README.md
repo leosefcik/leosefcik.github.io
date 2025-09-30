@@ -1,11 +1,12 @@
 # https://eggsandchickens.info/
-~~https://eggs-n-chickens.xyz/~~ old domain NUKED cuz it was UGLy and EXPENSIIVe
+~~https://eggs-n-chickens.xyz/~~ old domain NUKED cuz it was UGLY and EXPENSIVE
 
 Le official Eggs & Chickens website 1!!1
 
 so yes
 
 idk
+<img width="1920" height="965" alt="image" src="https://github.com/user-attachments/assets/c44f3999-9520-4f1e-8ab6-a45c863e72ff" />
 
 go there
 
@@ -28,3 +29,12 @@ its been like this for 3 years
 
 ## new new new neogothic revival website ????????????
 <img width="1920" height="995" alt="obrázok" src="https://github.com/user-attachments/assets/509b133d-04dd-4f42-b882-690036d034f5" />
+
+## new new new new chic sleek website with Lorom ispum texts 📚📚📚
+<img width="1920" height="965" alt="image" src="https://github.com/user-attachments/assets/9c53c086-502b-427e-8a92-080e26325db5" />
+
+hold on where tf does github save these images
+
+i cant find em
+
+eh
