@@ -58,7 +58,7 @@ dddddd - joplin white text color
     --topnav: #154F7C;
     --background: #1d2024;
     --background-alt: hsl(from var(--background) h s calc(l - 5));
-    --line: hsl(0, 0%, 40%);
+    --line: hsl(0, 0%, 30%);
     --stripes-line: color-mix(in oklab,var(--line),transparent);
     --text: #e3e3e3;
 
@@ -134,13 +134,10 @@ p {
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    border: 2px solid rgb(23, 23, 23);
-    border-radius: 32px 32px;
+    border-bottom: 1px solid black;
     box-shadow: var(--shadow);
     position: fixed;
-    top: 4px;
-    left: 8px;
-    width: calc(100% - 16px);
+    width: 100%;
     height: 3rem;
 }
 
@@ -149,7 +146,11 @@ p {
     text-align: center;
     text-decoration: none;
     vertical-align:middle;
-    &:hover { background-color: rgba(255, 255, 255, 0.4)}
+}
+
+.buttonify:hover{
+  border: 1px solid var(--accent);
+  transition: var(--transition);
 }
 
 
@@ -158,7 +159,6 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 60px;
     margin-right: auto;
 }
 
@@ -175,7 +175,7 @@ p {
 
 .top-stripes{
     border-top: 0;
-    height: calc(3rem + 8px);
+    height: 3rem;
 }
 
 .content{
