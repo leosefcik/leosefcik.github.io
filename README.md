@@ -6,7 +6,6 @@ Le official Eggs & Chickens website 1!!1
 so yes
 
 idk
-<img width="1920" height="965" alt="image" src="https://github.com/user-attachments/assets/c44f3999-9520-4f1e-8ab6-a45c863e72ff" />
 
 go there
 
