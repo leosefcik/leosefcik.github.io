@@ -138,7 +138,7 @@ p {
     box-shadow: var(--shadow);
     position: fixed;
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
 }
 
 .topnav a {
@@ -175,8 +175,23 @@ p {
 
 .top-stripes{
     border-top: 0;
-    height: 3rem;
+    height: 3.5rem;
 }
+
+.splash{
+  min-height: max(36rem,85vh);
+  position: relative;
+}
+
+.splash img{
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
 
 .content{
   padding-inline: 1.5rem;
